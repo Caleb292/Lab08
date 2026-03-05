@@ -20,9 +20,13 @@ public class CustomList {
      * @return
      */
      public boolean hasCity(City city) {
-        return cities.contains(city);
+         return cities.contains(city);
      }
 
-
+     public void deleteCity(City city) {
+         if (!cities.remove(city)) {
+             throw new IllegalArgumentException("City not in list");
+         }
+     }
 
 }
