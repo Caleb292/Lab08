@@ -14,8 +14,15 @@ public class CustomList {
         cities.add(city);
     }
 
-    // Will be implemented later using TDD (leave blank for now)
+    /**
+     * Check number of cities
+     * @param city
+     * @return
+     */
      public boolean hasCity(City city) {
         return cities.contains(city);
      }
+
+
+
 }
