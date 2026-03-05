@@ -1,6 +1,7 @@
 package com.example.lab08;
 
 // THis comment in city.java should be deleted
+// Another comment created
 
 public class City {
     private String city;
