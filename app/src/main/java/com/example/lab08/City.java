@@ -1,5 +1,7 @@
 package com.example.lab08;
 
+// THis comment in city.java should be deleted
+
 public class City {
     private String city;
     private String province;
